@@ -1,4 +1,4 @@
 public class Labs {
     //
-    int a;
+    int b;
 }
