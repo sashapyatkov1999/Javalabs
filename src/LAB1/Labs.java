@@ -13,8 +13,8 @@ public class Labs {
         System.out.println(( 46 + 10 ) * ( 10.0 / 3 ));
         System.out.println(( 29 ) * ( 4 ) * (- 15 ));
         // 3
-        int number = 10500;
-        int result = (number/10)/10;
+        int number = 10000;
+        double result = (number*1.0/10)/10;
         System.out.println(result);
         // 4
         double a = 3.6;
