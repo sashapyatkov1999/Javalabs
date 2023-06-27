@@ -11,8 +11,9 @@ public class Tree {
 
     public Tree(int eight, boolean isAlive, String name) {
         this.eight = eight;
-        this.isAlive = isAlive;
         this.name = name;
+        this.isAlive = isAlive;
+
     }
 
     public Tree(int eight, String name) {

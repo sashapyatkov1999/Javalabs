@@ -24,10 +24,12 @@ public class Labs {
         System.out.println(result2);
         //5
         Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < 3; i++) {
-            int num = scanner.nextInt();
-            System.out.println(num);
-        }
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
         // 6
         int b6 = scanner.nextInt();
         if (b6%2 != 0){
