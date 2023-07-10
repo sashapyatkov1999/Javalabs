@@ -10,7 +10,7 @@ public class MainClass {
         this.scanner = new Scanner(System.in);
     }
 
-    public void getAge() {
+    public  void getInfo() {
         System.out.print("Сколько лет: ");
         age = scanner.nextInt();
     }
