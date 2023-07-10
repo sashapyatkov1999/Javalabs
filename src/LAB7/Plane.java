@@ -11,6 +11,13 @@ public class Plane {
 
     public class Wing {
         private int weight;
+        public Wing(){
+
+        }
+
+        public void setWeight(int weight) {
+            this.weight = weight;
+        }
 
         public Wing(int weight) {
             this.weight = weight;

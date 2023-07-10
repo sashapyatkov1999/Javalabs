@@ -7,7 +7,8 @@ public class Main {
         System.out.println("Вес крыла: " + wing.getWeight());
 
         Plane plane2 = new Plane();
-        Plane.Wing wing2 = plane2.new Wing(300);
+        Plane.Wing wing2 = plane2.new Wing();
+        wing2.setWeight(200);
         System.out.println("Вес крыла: " + wing2.getWeight());
 
 
