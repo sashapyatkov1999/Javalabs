@@ -11,7 +11,6 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
 
         int[] numbers = new int[3];
-        try {
             for (int i = 0; i < numbers.length; i++) {
                 System.out.print("Введите " + (i + 1) + "-е число: ");
                 numbers[i] = scanner.nextInt();
@@ -20,8 +19,5 @@ public class Task4 {
                     System.out.println("Результат: " + result);
                 }
             }
-        }catch (Exception e){
-            System.out.println("Что-то неправильно");
-        }
     }
 }
