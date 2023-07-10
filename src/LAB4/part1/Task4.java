@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Task4 {
     public static void main(String[] args) {
-        FirstBiggerSecond();
+        firstBiggerSecond();
     }
 
-    public static void FirstBiggerSecond(){
+    public static void firstBiggerSecond(){
         Scanner scanner = new Scanner(System.in);
 
         int[] numbers = new int[3];
