@@ -17,7 +17,7 @@ public class Task4  {
 
             while (line != null) {
                 String replacedLine = line.replaceAll("[^\\p{Alnum}]", "\\$");
-                result.append(replacedLine).append("\n");
+                result.append(replacedLine).append(System.lineSeparator());
                 line = bufferedReader.readLine();
             }
 
