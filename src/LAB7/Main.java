@@ -10,7 +10,5 @@ public class Main {
         Plane.Wing wing2 = plane2.new Wing();
         wing2.setWeight(200);
         System.out.println("Вес второго крыла: " + wing2.getWeight());
-
-
     }
 }
